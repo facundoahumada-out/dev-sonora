@@ -38,3 +38,5 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 [Colors](https://htmlcolorcodes.com/es/)
 
 [Efecto Waves](https://svgwave.in/)
+
+[Template para volumen y cosas varias](https://daisyui.com/components/)

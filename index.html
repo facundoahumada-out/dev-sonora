@@ -208,5 +208,37 @@
         </ul>
     </section>
 
+    <footer class="fixed inset-x-0 bottom-0 z-50 border-t border-gray-300 bg-white">
+        <!-- Progreso de la pista (estático, el objetivo es vincularlo a la canción del momento.) -->
+        <div class="h-1 w-full bg-gray-200">
+            <div class="h-full w-[38vh] bg-blue-500"></div>
+        </div>
+        <div class="mx-auto flex max-w-[1280px] select-none items-center gap-4 px-4 py-2">
+            <div class="flex min-w-0 flex-1 items-center gap-2">
+                <img src="public/portada.jpg" alt="" class="h-12 w-12 shrink-0 rounded-lg border border-gray-200 object-cover">
+                <div class="flex min-w-0 flex-col">
+                    <span class="truncate font-semibold text-gray-900">Si Tú No Vuelves</span>
+                    <span class="truncate text-sm text-gray-500">Mauricio Pinilla</span>
+                </div>
+            </div>
+            <div class="flex shrink-0 items-center gap-4">
+                <button type="button" class="material-symbols-outlined text-2xl text-gray-500">repeat</button>
+                <button type="button" class="material-symbols-outlined text-3xl text-gray-500">skip_previous</button>
+                <button type="button" class="material-symbols-outlined icon-fill grid h-8 w-8 place-items-center rounded-full bg-gradient-to-b from-green-400 to-green-600 text-base text-white">pause</button>
+                <button type="button" class="material-symbols-outlined text-3xl text-gray-500">skip_next</button>
+                <button type="button" class="material-symbols-outlined text-2xl text-green-600">shuffle</button>
+            </div>
+            <div class="hidden flex-1 items-center justify-end gap-2 md:flex">
+                <button type="button" aria-label="Lista de reproducción" class="material-symbols-outlined text-2xl text-gray-500">queue_music</button>
+                <button type="button" aria-label="Silenciar" class="material-symbols-outlined text-2xl text-gray-500">volume_down</button>
+                <div class="relative h-1 w-24 rounded-full bg-gray-300">
+                    <div class="absolute left-0 top-0 h-full w-1/4 rounded-full bg-blue-600">
+                        <span class="absolute -right-1.5 inset-y-0 my-auto h-3 w-3 rounded-full border-2 border-white bg-blue-600 shadow"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
