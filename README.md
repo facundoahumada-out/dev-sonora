@@ -33,3 +33,5 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 [Google Icons](https://fonts.google.com/icons?icon.size=24&icon.color=%23000000)
 
 [Colors](https://htmlcolorcodes.com/es/)
+
+[Efecto Waves](https://svgwave.in/)
