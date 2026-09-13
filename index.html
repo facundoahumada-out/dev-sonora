@@ -22,7 +22,11 @@
         </div>
 
         <div class="hidden w-full max-w-[400px] flex-1 min-[800px]:flex">
-            <h1>Buscador</h1>
+            <div class="flex w-full items-center gap-2 rounded-md border border-gray-300 bg-gray-50 transition-colors focus-within:border-blue-500">
+                <span class="material-symbols-outlined shrink-0 px-2 text-2xl text-gray-500 select-none">search</span>
+                <input type="text" aria-label="Buscar" placeholder="Buscar pistas, artistas o álbumes" class="min-w-0 flex-1 bg-transparent py-1 text-base focus:outline-none">
+                <span class="material-symbols-outlined shrink-0 px-2 text-2xl text-gray-500 select-none">filter_alt</span>
+            </div>
         </div>
 
         <div class="flex flex-1 items-center justify-end gap-4 select-none">
@@ -31,6 +35,7 @@
                 <span class="absolute right-1.5 top-1.5 h-3 w-3 rounded-full border-2 border-white bg-blue-600"></span>
             </button>
             <button type="button" aria-label="Cuenta" class="flex items-center gap-1 rounded-md pr-2">
+                <!-- Incluir en un futuro despliegue en usuario -->
                 <span class="grid h-7 w-7 select-none place-items-center rounded-full border-2 border-gray-300 bg-gradient-to-b from-slate-300 to-slate-500 text-xs font-medium text-white">RS</span>
                 <span class="material-symbols-outlined text-base text-gray-500">expand_more</span>
             </button>
