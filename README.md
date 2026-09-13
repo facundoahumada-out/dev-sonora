@@ -16,12 +16,20 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 
 `place-items-center`: Atajo entre `align-items: center` + `justify-items: center`
 
+`vh`: Es la misma relación que se expresaba en `%` en css.
+
+`overflow-<suceso>`: Qué ocurre cuando el contenido no cabe.
+
 ### Etapa de desarrollo
 
 - Realización de *Barra de navegación*
+- Realización de *Búsqueda*
+- Realización de *Main*
 
 ### Fuentes de recursos
 
 [Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
 
 [Google Icons](https://fonts.google.com/icons?icon.size=24&icon.color=%23000000)
+
+[Colors](https://htmlcolorcodes.com/es/)
