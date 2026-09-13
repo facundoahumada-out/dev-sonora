@@ -20,6 +20,8 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 
 `overflow-<suceso>`: Qué ocurre cuando el contenido no cabe.
 
+`truncate`: Corta el texto y añade (...)
+
 ### Etapa de desarrollo
 
 - Realización de *Barra de navegación*
