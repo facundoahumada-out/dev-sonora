@@ -25,6 +25,7 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 - Realización de *Barra de navegación*
 - Realización de *Búsqueda*
 - Realización de *Main*
+- Realización de *Home*
 
 ### Fuentes de recursos
 
