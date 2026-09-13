@@ -28,6 +28,7 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 - Realización de *Búsqueda*
 - Realización de *Main*
 - Realización de *Home*
+- Realización de *Barra de reproducción*
 
 ### Fuentes de recursos
 
@@ -40,3 +41,7 @@ Por el momento y por una cuestión de comodidad práctica al desarrollar, la int
 [Efecto Waves](https://svgwave.in/)
 
 [Template para volumen y cosas varias](https://daisyui.com/components/)
+
+### Nota
+
+Al final, con tantas ramas que hizo cada uno, hicimos como 20 commits cada uno, por lo cual era un desorden para la revisión. Por ende, se decidió realizar un repositorio nuevo e ir juntando lo final de cada proyecto en uno. Se indica en cada commit lo que se agregó por transcursos, en vez de tener que ver 10 commits, se resumió finalmente en 1. 
